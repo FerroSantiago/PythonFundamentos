@@ -12,7 +12,7 @@ class Auto(Vehiculo):
             Vehiculo.__init__(self, color)
             self.ruedas = ruedas
     def infoRelevante(self):
-        print("La informacionh relevante es la cantidad de ruedas:", self.ruedas)
+        print("La informacion relevante es la cantidad de ruedas:", self.ruedas)
 
 auto = Auto("gris", "4")
 auto.infoRelevante()
